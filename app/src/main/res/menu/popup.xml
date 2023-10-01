@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btn_goalam"
+        android:icon="@drawable/alam_icon"
+        app:showAsAction="never"
+        android:title="입고알림" />
+
+    <item
+        android:id="@+id/btn_goreservation"
+        android:icon="@drawable/reservation_icon"
+        app:showAsAction="never"
+        android:title="예약확인" />
+
+    <item
+        android:id="@+id/btn_gocart"
+        android:icon="@drawable/cart_icon"
+        app:showAsAction="never"
+        android:title="장바구니" />
+
+    <item
+        android:id="@+id/btn_gomy"
+        android:icon="@drawable/my_icon"
+        app:showAsAction="never"
+        android:title="MY" />
+
+</menu>

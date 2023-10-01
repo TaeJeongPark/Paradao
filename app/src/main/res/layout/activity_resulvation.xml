@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReservationActivity" >
+
+    <TextView
+        android:id="@+id/tf_resultProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tfInfo_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tf_resultProductName"
+        android:layout_alignLeft="@id/tf_resultProductName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="제품 가격"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tf_resultProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tf_resultProductName"
+        android:layout_alignRight="@id/tf_resultProductName"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tfInfo_resulvation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tfInfo_price"
+        android:layout_alignLeft="@id/tf_resultProductName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="예약 수량"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tf_resulvation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tfInfo_price"
+        android:layout_alignRight="@id/tf_resultProductName"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tfInfo_brandname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tfInfo_resulvation"
+        android:layout_alignLeft="@id/tf_resultProductName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="브랜드명"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tf_brandname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tfInfo_resulvation"
+        android:layout_alignRight="@id/tf_resultProductName"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tfInfo_storename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tfInfo_brandname"
+        android:layout_alignLeft="@id/tf_resultProductName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="예약 지점명"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tf_storename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tfInfo_brandname"
+        android:layout_alignRight="@id/tf_resultProductName"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tfInfo_resulvtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tfInfo_storename"
+        android:layout_alignLeft="@id/tf_resultProductName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="예약 일시"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tf_resulvstarttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tfInfo_storename"
+        android:layout_alignRight="@id/tf_resultProductName"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tfInfo_resulvendtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tfInfo_resulvtime"
+        android:layout_alignLeft="@id/tf_resultProductName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="만료 일시"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tf_resulvendtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tfInfo_resulvtime"
+        android:layout_alignRight="@id/tf_resultProductName"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btn_cancel"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tfInfo_resulvendtime"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:src="@drawable/cancle" />
+
+</RelativeLayout>

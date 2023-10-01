@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity" >
+
+    <TextView
+        android:id="@+id/tf_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btn_logout"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tf_nickname"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:src="@drawable/logout" />
+
+    <ImageButton
+        android:id="@+id/btn_exit"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/btn_logout"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:src="@drawable/exit" />
+
+</RelativeLayout>

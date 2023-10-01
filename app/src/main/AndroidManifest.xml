@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paradao">
+
+    <application
+        android:name=".kakaoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.Paradao">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="fullSensor"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AlamActivity" />
+        <activity android:name=".ReservationActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".MyActivity" />
+        <activity android:name=".StoreListActivity" />
+        <activity android:name=".ProductListActivity" />
+        <activity android:name=".ProductDetailActivity" />
+        <activity android:name=".StoreDetailActivity" />
+        <activity android:name=".MapActivity" />
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="86baa88d6fc3ef3de4743830f490509a" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+</manifest>
